@@ -1,0 +1,1 @@
+web: gunicorn newendo.wsgi --log-file -
