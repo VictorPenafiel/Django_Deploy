@@ -6,7 +6,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul data-aos="fade-down-right" data-aos-duration="1300" class="navbar-nav me-auto mb-4 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-4 mb-lg-0">
                     <a href="{% url 'indice' %}"><button type="button" class="btn btn-outline-dark">Inicio</button></a>
                     <a href="{% url 'bienvenido' %}"><button type="button" class="btn btn-outline-dark">Bienvenido</button></a>
                     <a href="{% url 'acerca' %}"><button type="button" class="btn btn-outline-dark">¿Quiénes somos?</button></a>
@@ -14,7 +14,7 @@
                     <a href="{% url 'clima' %}"><button type="button" class="btn btn-outline-dark">Clima</button></a>
                     <a href="{% url 'contacto' %}"><button type="button" class="btn btn-outline-dark">Contacto</button></a>
                 </ul>
-                <div data-aos="fade-down-left" data-aos-duration="1300" class="text_end">
+                <div class="text_end">
                     {% if not user.is_authenticated %}
                     <a href="{% url 'login' %}"><button type="button" class="btn btn-warning">Iniciar Sesión</button></a>
                     {% endif %}
