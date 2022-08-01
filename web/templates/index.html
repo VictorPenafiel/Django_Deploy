@@ -20,7 +20,7 @@
         
         {% for tecnologia in public_tecnologias %}
         <div class="col-12 col-md-3">
-            <div class="card mb-4 bg-light">
+            <div data-aos="zoom-in" data-aos-duration="1300" class="card mb-4 bg-light">
                 <img src="{{ tecnologia.image_url }}" class="card-img-top text-center" height="250">
                 <div class="card-body">
                     <h4 class="card-title">
@@ -65,7 +65,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-down" data-aos-duration="1500" class="accordion-item">
+                        <div data-aos="zoom-in" data-aos-duration="1300" class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo{{forloop.counter0}}" aria-expanded="false"
