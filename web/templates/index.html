@@ -4,7 +4,7 @@
 {% block 'content' %}
 <div class="container">
     <div class="row">
-        <div class="h-100 p-2 text-dark bg-warning rounded-3 mb-4">
+        <div data-aos="flip-up" data-aos-duration="1300" class="h-100 p-2 text-dark bg-warning rounded-3 mb-4">
             <h2>
                 Newendo
             </h2>
@@ -129,7 +129,15 @@
         </div>
 
         {% endfor %}
-        <div data-aos="zoom-in" data-aos-duration="1300" class="container">
+        <div 
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1400"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center" class="container">
             <div class="col-12 col-md-6 offset-0 offset-md-3 mt-4 mb-4">
                 <h3 class="text-center">
                     Newendo, el camino de la energía.
