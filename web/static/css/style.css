@@ -7,6 +7,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+#eventos h2 {
+    margin-bottom: 1em;
+}
+
+.evento h3 {
+    margin-top: 0.5em;
+    position: relative;
+}
 
 /*:::::Pie de Pagina*/
 .pie-pagina {
