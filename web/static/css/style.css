@@ -27,7 +27,7 @@
 
 .pie-pagina .grupo-1 {
     width: 100%;
-    max-width: 900px;
+    max-width: 1500px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
