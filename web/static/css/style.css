@@ -24,6 +24,12 @@
     font-weight: 700;
 }
 
+#titulo2 {
+    font-family: "Lobster";
+    font-size: 25px;
+    font-weight: 700;
+}
+
 /*:::::Pie de Pagina*/
 .pie-pagina {
     width: 100%;
