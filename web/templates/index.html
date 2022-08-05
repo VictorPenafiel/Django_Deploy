@@ -9,9 +9,8 @@
                 Newendo
             </h2>
             <p>
-                Newendo nace en el año 2022 buscando entregar una curatoria de tecnologías del Yo,
-                tomando como referentes a los siguientes pensadores:
-                <br>Nietzsche, Patanjali, Mezieres y Rolfing.
+                Newendo es una tecnología del yo dedicada a la deconstrucción del ser, enfocandose en los asuntos 
+                fundamentales de la vida los cuales son las cosas más cercanas e inmediatas: el cuerpo, el alma, la alimentación y el clima
             </p>
             <a href="{% url 'acerca' %}" class="btn btn-outline-dark">
                 Conoce más
@@ -65,10 +64,9 @@
             </div>
         </div>
         
-        <div class="b-example-divider"></div>
 
         <section style="text-align: center;">
-            <h2>Curatoria de tecnologías del Yo</h2>
+            <h2>Tecnologías del Yo</h2>
         </section>
 
         {% for tecnologia in public_tecnologias %}
@@ -181,6 +179,8 @@
             </div>
         </div>
         {% endfor %}
+
+        <div class="b-example-divider"></div>
 
         <div data-aos="fade-up" data-aos-duration="1400" class="container">
             <div class="col-12 col-md-6 offset-0 offset-md-3 mt-4 mb-4">
