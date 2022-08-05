@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://unpkg.com/aos@next/dist/aos.css');
+@import url('https: //fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap');
 
 * {
     margin: 0;
@@ -17,7 +18,13 @@
     margin: 4rem auto;
 }
 
-
+#titulo {
+    font-family: "Georgia";
+    background-color: #000000;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
 
 /*:::::Pie de Pagina*/
 .pie-pagina {
