@@ -19,11 +19,9 @@
 }
 
 #titulo {
-    font-family: "Georgia";
-    background-color: #000000;
-    position: fixed;
-    width: 100vw;
-    z-index: 1;
+    font-family: "Lobster";
+    font-size: 35px;
+    font-weight: 700;
 }
 
 /*:::::Pie de Pagina*/
