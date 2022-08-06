@@ -69,7 +69,30 @@ def exito_registro(request):
     return render(request, 'exito_registro.html', {})
 
 def cuerpo(request):
-    return render(request, 'cuerpo.html', {})
+    public_tecnologias = Tecnologia.objects.filter(is_private=False)
+    return render(
+        request,
+        'cuerpo.html',
+        {
+            'public_tecnologias': public_tecnologias
+        }
+    )
+
+
+
+def indice(request):
+    public_tecnologias = Tecnologia.objects.filter(is_private=False)
+    return render(
+        request,
+        'index.html',
+        {
+            'public_tecnologias': public_tecnologias
+        }
+    )
+
+
+
+
 
 def nutricion(request):
     return render(request, 'nutricion.html', {})
