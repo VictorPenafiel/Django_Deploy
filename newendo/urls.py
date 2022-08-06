@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', indice, name="indice"),
     path('acerca', acerca, name="acerca"),
-    path('cuerpo', acerca, name="cuerpo"),
+    path('cuerpo', cuerpo, name="cuerpo"),
     path('nutricion', nutricion, name="nutricion"),
     path('clima', clima, name="clima"),
     path('bienvenido', bienvenido, name="bienvenido"),
