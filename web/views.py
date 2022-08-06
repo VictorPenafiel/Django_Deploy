@@ -68,6 +68,8 @@ def register(request):
 def exito_registro(request):
     return render(request, 'exito_registro.html', {})
 
+def cuerpo(request):
+    return render(request, 'cuerpo.html', {})
 
 def nutricion(request):
     return render(request, 'nutricion.html', {})
