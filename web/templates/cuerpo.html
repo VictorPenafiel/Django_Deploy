@@ -3,7 +3,7 @@
 
 {% block 'content' %}
 <div class="container">
-    <div class="row" id="degradado">
+    <div id="degradado">
         <h2 class="text-center mb-3" id="titulo">
             Cuerpo
         </h2>
@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="row">
         {% for tecnologia in public_tecnologias %}
         <div class="col-12 col-md-3">
             <div data-aos="zoom-in" data-aos-duration="2200" class="card mb-4 bg-light">
@@ -162,7 +162,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 {% endblock %}
