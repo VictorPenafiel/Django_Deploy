@@ -30,11 +30,11 @@
     font-weight: 700;
 }
 
-#degradado {
+#degradado2 {
     background: linear-gradient(135deg, cyan 60%, orange);
 }s
 
-#degradado2 {
+#degradado {
     background: linear-gradient(135deg, orange 60%, cyan);
 }
 
