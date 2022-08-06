@@ -3,16 +3,16 @@
 
 {% block 'content' %}
 <div class="container">
-    <div class="row">
-        <h2 class="text-center mb-3" id="titulo" id="degradado">
+    <div class="row" id="degradado">
+        <h2 class="text-center mb-3" id="titulo">
             Cuerpo
         </h2>
-        <h6 data-aos="zoom-in" data-aos-duration="1300" class="text-end mb-3"id="degradado">
+        <h6 data-aos="zoom-in" data-aos-duration="1300" class="text-end mb-3">
             Un cuerpo ductil moldeable, modificables por medio de las tecnologías del yo, que permiten a los individuos efectuar, solos o con ayuda de otros, cierto número de operaciones sobre su
             cuerpo y su alma, sus pensamientos, sus conductas, su manera de ser; es decir, transformarse con el fin de alcanzar
             cierto estado de felicidad, de pureza, de sabiduría, de perfección o de inmortalidad.
         </h6>
-        <div data-aos="zoom-in" data-aos-duration="1300" class="container" id="degradado">
+        <div data-aos="zoom-in" data-aos-duration="1300" class="container" >
             <div data-aos="flip-up" data-aos-duration="1300" class="dropdown-menu p-2 shadow rounded-3" style="width: 365px"
                 id="dropdownCalendar">
                 <div class="d-grid gap-1">
@@ -25,7 +25,8 @@
                 </div>
             </div>
         </div>
-
+    </div>
+    <div>
         {% for tecnologia in public_tecnologias %}
         <div class="col-12 col-md-3">
             <div data-aos="zoom-in" data-aos-duration="2200" class="card mb-4 bg-light">
