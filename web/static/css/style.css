@@ -30,6 +30,9 @@
     font-weight: 700;
 }
 
+#degradado {
+    background: linear-gradient(135deg, orange 60%, cyan);
+}
 /*:::::Pie de Pagina*/
 .pie-pagina {
     width: 100%;
