@@ -1,33 +1,52 @@
 {% load static %}
 {% block 'footer' %}
 
-<footer data-aos="zoom-in" data-aos-duration="2200" class="pie-pagina container-fluid mt-3">
-    <div class="grupo-1">
-        <div class="box">
-            <h2>Newendo</h2>
-            <p>El camino de la energia es una tecnología del yo dedicada a la deconstrucción del ser por medio de la guerra contra el
-                cansancio.
-            </p>
-        </div>
-        <div style="text-align: end;" class="box" >
-            <h2>Únete a nuestra comunidad</h2>
-            <div class="red-social">
-                <a href="https://web.facebook.com/victorpenafiel?_rdc=1&_rdr"
-                    class="fa fa-facebook" aria-hidden="true"></a>
-                <a href="https://web.facebook.com/victorpenafiel?_rdc=1&_rdr"
-                    class="fa fa-instagram" aria-hidden="true"></a>
-                <a href="https://web.facebook.com/victorpenafiel?_rdc=1&_rdr"
-                    class="fa fa-twitter" aria-hidden="true"></a>
-                <a href="https://web.facebook.com/victorpenafiel?_rdc=1&_rdr"
-                    class="fa fa-youtube" aria-hidden="true"></a>
+<div class="container">
+    <footer class="py-5">
+        <div class="row">
+            <div class="col-2">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">¿Quienes somos?</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cuerpo</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Alimentación</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Clima</a></li>
+                </ul>
+            </div>
+
+            <div class="col-4 offset-1">
+                <form>
+                    <h5>Suscríbete a nuestro newsletter</h5>
+                    <p>Recibe contenido sobre tecnologias del yo, alimentación, Clima y otros consejos para mejorar tu Energía</p>
+                    <div class="d-flex w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Correo Electronico</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Suscribirse</button>
+                    </div>
+                </form>
             </div>
         </div>
-    </div>
-    <div class="grupo-2">
-        <a href="https://www.tusitioweb3.cl">
-            Creado por: Tu sitio Web 3
-        </a>
-    </div>
-</footer>
+
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2021 Newendo, el camino de la energía.</p>
+            <div class="grupo-2">
+                <a href="https://www.tusitioweb3.cl">
+                    Creado por: Tu sitio Web 3
+                </a>
+            </div>
+            <div style="text-align: end;" class="box">
+                <h2>Únete a nuestra comunidad</h2>
+                <div class="red-social">
+                    <a href="https://web.facebook.com/victorpenafiel?_rdc=1&_rdr" class="fa fa-facebook" aria-hidden="true"></a>
+                    <a href="https://web.facebook.com/victorpenafiel?_rdc=1&_rdr" class="fa fa-instagram" aria-hidden="true"></a>
+                    <a href="https://web.facebook.com/victorpenafiel?_rdc=1&_rdr" class="fa fa-twitter" aria-hidden="true"></a>
+                    <a href="https://web.facebook.com/victorpenafiel?_rdc=1&_rdr" class="fa fa-youtube" aria-hidden="true"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
 
 {% endblock %}
